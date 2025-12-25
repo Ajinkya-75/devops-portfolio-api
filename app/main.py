@@ -6,7 +6,7 @@ app = FastAPI()
 @app.get("/")
 def read_root():
     return {
-        "Hello": "World",
+        "Hello": "From GitHub Actions!",
         "Role": "DevOps Engineer",
         "Location": "India"
     }
