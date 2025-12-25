@@ -1,0 +1,8 @@
+# Ignore Terraform heavy files
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Ignore Python heavy files
+__pycache__/
+venv/
